@@ -1,6 +1,6 @@
 <?php
 try {
-    $bdd = new PDO('mysql:host=172.16.2.229;dbname=cwitter', 'root', 't1FNdGWx5z');
+    $bdd = new PDO('mysql:host=10.10.4.188;dbname=cwitter', 'cwitter', 'cwitter');
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 }
 catch (Exception $e)
